@@ -1,0 +1,75 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Myriad Pro', Helvetica, Aero, 'Segoe UI',
+    segoe-ui, sans-serif;
+
+  background: #000;
+  color: #fff;
+
+  --img-offset: -50px;
+  --text-offset: -120px;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 100;
+  width: 100%;
+  top: 50%;
+  margin-top: var(--text-offset);
+}
+
+.landscape {
+  width: 100%;
+}
+
+.bush {
+  position: absolute;
+  left: 0;
+  bottom: var(--img-offset);
+}
+
+.house {
+  position: absolute;
+  right: 0;
+  bottom: var(--img-offset);
+}
+
+.bottom {
+  position: relative;
+  background-color: #000;
+  -webkit-box-shadow: 0px -1px 46px 15px #000000;
+  box-shadow: 0px -1px 46px 15px #000000;
+  top: -40px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 200px;
+}
+
+.bottom div {
+  flex: 1;
+  padding: 30px 40px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #ddd;
+}
+
+.bottom div:nth-child(2) {
+  padding: 30px 0px;
+}
