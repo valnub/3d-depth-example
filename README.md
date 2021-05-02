@@ -1,4 +1,4 @@
-# 3d-depth-example
+# 3D Depth Example
 Example source code for creating a 3d parallax effect on websites
 
 # How to run
