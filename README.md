@@ -10,3 +10,5 @@ No npm/webpack or so required!
 # Live Demo
 
 http://www.timo-ernst.net/misc/3d-depth-effect
+
+<img src="demo/gif.gif">
